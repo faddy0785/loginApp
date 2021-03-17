@@ -11,7 +11,7 @@ def abc():
         z=request.form['gender']
         p=request.form['profession']
         c=request.form['course']
-        print(x,y,z,p,c)
-        return render_template('class.html')
+        s=x+'/n'+y+'/n'+z+'/n'+p+'/n'+c
+        return render_template('class.html',answer=s)
 if __name__ == "__main__":
     app.run()
