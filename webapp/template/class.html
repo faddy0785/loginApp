@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Farhad Forms</title>
+	<style >
+		body{
+			background-image: url('d:113.JPG');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+  			background-size: 100% 100%;.JPG
+		}
+	</style>
+</head>
+<body>
+<form action="About" method="POST">
+	<div>
+		First Name<input type="text" name="a">
+	</div>
+	<div>
+		Last Name<input type="text" name="b">
+	</div>
+	<div>
+		Gender:<br> <input type="radio" id="male" name="gender" value="male">
+	   	<label for ="male">Male</label><br>
+	   	<input type="radio" id="female" name="gender" value="female">
+	   	<label for ="female">Female</label>
+	</div>
+	<div>
+		<label for="profession">Profession:</label>
+		<select id="profession" name="profession">
+		<option value="teacher">Teacher</option>
+		<option value="student">Student</option>
+		<!-- <option value="aws">AWS</option>
+		<option value="sql">SQL</option> -->
+		</select>
+	</div>
+	 <div>
+		Course: <br><input type="checkbox" id="	course" name="course"  value="python">
+		<label for="course">Python</label><br>
+		<input type="checkbox" id="course" name="course"  value="ds">
+		<label for="course">DS</label><br>
+		<input type="checkbox" id="course" name="course"  value="aws">
+		<label for="course">AWS</label><br>
+		<input type="checkbox" id="course" name="course"  value="sql">
+		<label for="course">SQL</label><br>
+		<!-- <input type="checkbox" id="vehicle" name="vehicle"  value="Cycle">
+		<label for="vehicle">Cycle</label> -->
+	</div>
+	
+	<div>
+		<!-- <button type="button" onclick="alert('Hello World!')">Click Me!</button> -->
+		<input type="submit" name="submit">
+		<input type="reset"><br>
+		<!-- {{answer}} -->
+	
+
+
+</form>
+</body>
+</html>
